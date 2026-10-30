@@ -6,7 +6,7 @@
 #
 CFILES=pthread_nodanger.c timer.c
 OFILES=$(CFILES:.c=.o)
-CC=gcc
+CC=clang
 CFLAGS=-g
 
 pthread_nodanger:	$(OFILES)
